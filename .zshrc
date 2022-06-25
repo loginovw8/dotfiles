@@ -1,4 +1,4 @@
-PROMPT='%F{cyan}%1~%f %B%F{168}>%f%b '
+PROMPT='%F{cyan}%1~%f %B%F{33}>%f%b '
 
 export LC_ALL='en_US.UTF-8'
 
