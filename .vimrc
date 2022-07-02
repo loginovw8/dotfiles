@@ -1,9 +1,5 @@
 " https://github.com/junegunn/vim-plug
-
-" curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
-"     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
-
-" :PlugInstall
+" https://github.com/junegunn/vim-plug/wiki/tips#install-plugins-on-the-command-line
 
 call plug#begin('~/.vim/plugged')
 
@@ -18,6 +14,9 @@ Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 
 call plug#end()
+
+" enable mouse
+set mouse=a
 
 " number of lines
 set nonumber
