@@ -22,6 +22,10 @@ call plug#end()
 " enable mouse
 set mouse=a
 
+" copy to clipboard 
+" check +clipboard option in vim --version
+set clipboard=unnamed
+
 " set color column
 set colorcolumn=80
 
