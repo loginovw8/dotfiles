@@ -1,4 +1,4 @@
-PROMPT='%F{cyan}%1~%f %B%F{33}>%f%b '
+PROMPT='%F{cyan}%1~%f %B%F{168}>%f%b '
 
 export LC_ALL='en_US.UTF-8'
 
@@ -6,6 +6,7 @@ export EDITOR=vim
 export VISUAL="$EDITOR"
 
 alias ls='ls -G'
+alias mc="mc --nosubshell"
 
 export PATH="$HOME/.composer/vendor/bin:$PATH"
 
