@@ -12,10 +12,10 @@ export PATH="$HOME/.composer/vendor/bin:$PATH"
 
 alias sail='vendor/bin/sail'
 
-alias vu='cd ~/Homestead;vagrant up'
-alias vr='cd ~/Homestead;vagrant reload --provision'
-alias vs='cd ~/Homestead;vagrant ssh'
-alias vh='cd ~/Homestead;vagrant halt'
+alias hu='cd ~/Homestead;vagrant up'
+alias hr='cd ~/Homestead;vagrant reload --provision'
+alias hs='cd ~/Homestead;vagrant ssh'
+alias hh='cd ~/Homestead;vagrant halt'
 
 # export NVM_DIR="$HOME/.nvm"
 	# [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
