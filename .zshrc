@@ -6,7 +6,8 @@ export EDITOR=vim
 export VISUAL="$EDITOR"
 
 alias ls='ls -G'
-alias mc="mc --nosubshell"
+alias mc='mc --nosubshell'
+alias subl='open -a "Sublime Text"'
 
 export PATH="$HOME/.composer/vendor/bin:$PATH"
 
