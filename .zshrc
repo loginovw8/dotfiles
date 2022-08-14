@@ -5,6 +5,9 @@ export LC_ALL='en_US.UTF-8'
 export EDITOR=vim
 export VISUAL="$EDITOR"
 
+alias sp='pmset sleepnow'
+alias sd='sudo shutdown -h now'
+
 alias ls='ls -G'
 alias mc='mc --nosubshell'
 alias subl='open -a "Sublime Text"'
