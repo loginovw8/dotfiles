@@ -15,7 +15,8 @@ Plug 'tpope/vim-fugitive'
 Plug 'vim-airline/vim-airline'
 Plug 'townk/vim-autoclose'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
-Plug 'junegunn/fzf.vim'
+Plug 'junegunn/fzf.vim',
+Plug 'mg979/vim-visual-multi', {'branch': 'master'}
 
 call plug#end()
 
