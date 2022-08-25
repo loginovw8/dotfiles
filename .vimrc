@@ -65,5 +65,5 @@ let NERDTreeNodeDelimiter="\t"
 let g:NERDSpaceDelims = 1
 
 " mappings
-map <C-b> :NERDTreeToggle<CR>
+map <C-e> :NERDTreeToggle<CR>
 map <Leader> <Plug>(easymotion-prefix)
