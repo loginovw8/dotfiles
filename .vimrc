@@ -50,19 +50,12 @@ let g:mapleader=','
 colorscheme gruvbox
 let g:gruvbox_contrast_dark='hard'
 set background=dark
-" set background=light
 
 " highlight search
 set hlsearch
 
 " incremental search
 set incsearch
-
-" workaround for solving nerdtree plug display problems
-let NERDTreeNodeDelimiter="\t"
-
-" add spaces after comment delimiters by default
-let g:NERDSpaceDelims = 1
 
 " mappings
 map <C-e> :NERDTreeToggle<CR>
