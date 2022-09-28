@@ -48,8 +48,11 @@ let g:mapleader=','
 
 " gruvbox colorscheme settings
 colorscheme gruvbox
+" soft, medium, hard
 let g:gruvbox_contrast_dark='hard'
+" let g:gruvbox_contrast_light='hard'
 set background=dark
+" set background=light
 
 " highlight search
 set hlsearch
