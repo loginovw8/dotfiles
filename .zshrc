@@ -7,7 +7,6 @@ export PATH="$HOME/.composer/vendor/bin:$PATH"
 
 alias ls='ls -G'
 alias mc='mc --nosubshell'
-alias gs='git status'
 alias bu='brew update && brew upgrade && brew cleanup --prune=14'
 
 alias spas='openssl rand -base64 6 | pbcopy'
