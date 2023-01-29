@@ -10,7 +10,9 @@ CASK_APPS=(
 	"timewarrior",
 	"htop",
 	"tmux",
-	"mc"
+	"mc",
+	"anydesk",
+	"microsoft-remote-desktop"
 )
 
 for app in "${CASK_APPS[@]}"; do
