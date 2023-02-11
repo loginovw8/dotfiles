@@ -11,6 +11,7 @@ CASK_APPS=(
 	"htop",
 	"tmux",
 	"mc",
+	"vlc",
 	"anydesk",
 	"microsoft-remote-desktop"
 )
