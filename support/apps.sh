@@ -15,7 +15,6 @@ CASK_APPS=(
 	"virtualbox",
 	"vmware-fusion",
 	"vagrant",
-	"parsec",
 	"anydesk",
 	"microsoft-remote-desktop"
 )
