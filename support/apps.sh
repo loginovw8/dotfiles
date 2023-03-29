@@ -5,17 +5,18 @@ CASK_APPS=(
     "rectangle"
     "karabiner-elements"
     "Imageoptim"
-    "iterm2",
-	"task",
-	"timewarrior",
-	"htop",
-	"tmux",
-	"mc",
-	"vlc",
-	"virtualbox",
-	"vmware-fusion",
-	"vagrant",
-	"anydesk",
+    "iterm2"
+	"task"
+	"timewarrior"
+	"htop"
+	"tmux"
+	"mc"
+	"vlc"
+	"linearmouse"
+	"virtualbox"
+	"vmware-fusion"
+	"vagrant"
+	"anydesk"
 	"microsoft-remote-desktop"
 )
 
