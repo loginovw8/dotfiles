@@ -27,6 +27,9 @@ set mouse=a
 " check +clipboard option in vim --version
 set clipboard=unnamed
 
+" Map C-c to copy in Linux
+" map <C-c> "+y
+
 " set color column
 set colorcolumn=80
 
