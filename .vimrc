@@ -1,9 +1,4 @@
 " https://github.com/junegunn/vim-plug
-"
-" curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
-"     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
-"
-" :PlugInstall
 
 call plug#begin('~/.vim/plugged')
 
@@ -26,9 +21,6 @@ set mouse=a
 " copy to clipboard 
 " check +clipboard option in vim --version
 set clipboard=unnamed
-
-" Map C-c to copy in Linux
-" map <C-c> "+y
 
 " set color column
 set colorcolumn=80
