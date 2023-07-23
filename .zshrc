@@ -4,10 +4,13 @@ export EDITOR=vim
 export VISUAL="$EDITOR"
 export LC_ALL='en_US.UTF-8'
 export PATH="$HOME/.composer/vendor/bin:$PATH"
+#export PATH="$HOME/.config/composer/vendor/bin:$PATH" #Linux
 
-alias ls='ls -G'
+alias ls='ls -G' #MacOS
+#alias ls='ls --color=auto' #Linux
 alias mc='mc --nosubshell'
-alias bu='brew update && brew upgrade && brew cleanup --prune=14'
+alias bu='brew update && brew upgrade && brew cleanup --prune=14' #MacOS
+#alias au='sudo apt update && sudo apt upgrade' #Linux
 
 alias spas='openssl rand -base64 6 | pbcopy'
 alias lpas='openssl rand -base64 18 | pbcopy'
