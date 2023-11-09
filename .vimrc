@@ -28,6 +28,9 @@ set colorcolumn=80
 " number of lines
 set nonumber
 
+" word wrap
+set nowrap
+
 " tab size
 set tabstop=4
 set shiftwidth=4
@@ -56,5 +59,8 @@ set hlsearch
 set incsearch
 
 " mappings
-map <C-e> :NERDTreeToggle<CR>
+map <C-q> :NERDTreeToggle<CR>
+map <C-k> :FZF<CR>
+map <C-l> :Rg<CR>
+map <C-m> :noh<CR>
 map <Leader> <Plug>(easymotion-prefix)
