@@ -63,4 +63,5 @@ map <C-q> :NERDTreeToggle<CR>
 map <C-k> :FZF<CR>
 map <C-l> :Rg<CR>
 map <C-m> :noh<CR>
+map <C-e> :tabnew<CR>
 map <Leader> <Plug>(easymotion-prefix)
