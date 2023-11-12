@@ -59,6 +59,8 @@ set hlsearch
 set incsearch
 
 " mappings
+" C-q is used by tty to do flow-control (xon/xoff).
+" Disable it through: stty -ixon
 map <C-q> :NERDTreeToggle<CR>
 map <C-k> :FZF<CR>
 map <C-l> :Rg<CR>
