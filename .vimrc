@@ -1,5 +1,4 @@
 " https://github.com/junegunn/vim-plug
-
 call plug#begin('~/.vim/plugged')
 
 Plug 'morhetz/gruvbox'
@@ -59,11 +58,23 @@ set hlsearch
 set incsearch
 
 " mappings
+
+" nerdtree toggler
 " C-q is used by tty to do flow-control (xon/xoff).
-" Disable it through: stty -ixon
+" disable it through: stty -ixon
 map <C-q> :NERDTreeToggle<CR>
+
+" fuzzy finder
 map <C-k> :FZF<CR>
+
+" rip grep
 map <C-l> :Rg<CR>
+
+" disable search highlight
 map <C-m> :noh<CR>
+
+" new tab
 map <C-e> :tabnew<CR>
+
+" easymotion leader
 map <Leader> <Plug>(easymotion-prefix)
