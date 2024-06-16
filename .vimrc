@@ -4,13 +4,10 @@ call plug#begin('~/.vim/plugged')
 Plug 'morhetz/gruvbox'
 Plug 'scrooloose/nerdtree', { 'on': 'NERDTreeToggle' }
 Plug 'preservim/nerdcommenter'
-Plug 'easymotion/vim-easymotion'
-Plug 'tpope/vim-fugitive'
 Plug 'vim-airline/vim-airline'
 Plug 'townk/vim-autoclose'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim',
-Plug 'mg979/vim-visual-multi', {'branch': 'master'}
 
 call plug#end()
 
@@ -40,9 +37,6 @@ set cursorline
 " syntax highlight
 syntax on 
 
-" set global leader 
-let g:mapleader=','
-
 " gruvbox colorscheme settings
 colorscheme gruvbox
 " soft, medium, hard
@@ -63,18 +57,11 @@ set incsearch
 " C-q is used by tty to do flow-control (xon/xoff).
 " disable it through: stty -ixon
 map <C-q> :NERDTreeToggle<CR>
-
 " fuzzy finder
 map <C-k> :FZF<CR>
-
 " rip grep
 map <C-l> :Rg<CR>
-
 " disable search highlight
 map <C-m> :noh<CR>
-
 " new tab
 map <C-e> :tabnew<CR>
-
-" easymotion leader
-map <Leader> <Plug>(easymotion-prefix)
