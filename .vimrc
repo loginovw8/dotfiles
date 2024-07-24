@@ -30,12 +30,16 @@ set nowrap
 " tab size
 set tabstop=4
 set shiftwidth=4
+set expandtab
 
 " set cursor line
 set cursorline
 
 " syntax highlight
 syntax on 
+
+" set global leader 
+let g:mapleader=','
 
 " gruvbox colorscheme settings
 colorscheme gruvbox
@@ -57,11 +61,15 @@ set incsearch
 " C-q is used by tty to do flow-control (xon/xoff).
 " disable it through: stty -ixon
 map <C-q> :NERDTreeToggle<CR>
+
 " fuzzy finder
 map <C-k> :FZF<CR>
+
 " rip grep
 map <C-l> :Rg<CR>
+
 " disable search highlight
 map <C-m> :noh<CR>
+
 " new tab
 map <C-e> :tabnew<CR>
