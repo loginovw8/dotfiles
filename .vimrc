@@ -7,7 +7,10 @@ Plug 'preservim/nerdcommenter'
 Plug 'vim-airline/vim-airline'
 Plug 'townk/vim-autoclose'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
-Plug 'junegunn/fzf.vim',
+Plug 'junegunn/fzf.vim'
+
+" add extra plugins
+source ~/.vim/extra
 
 call plug#end()
 
@@ -38,16 +41,14 @@ set cursorline
 " syntax highlight
 syntax on 
 
-" set global leader 
+" set global leade 
 let g:mapleader=','
 
-" gruvbox colorscheme settings
 colorscheme gruvbox
-" soft, medium, hard
+" contrast: soft, medium, hard
 let g:gruvbox_contrast_dark='hard'
-" let g:gruvbox_contrast_light='hard'
+" bg: dark, light
 set background=dark
-" set background=light
 
 " highlight search
 set hlsearch
