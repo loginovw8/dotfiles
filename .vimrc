@@ -9,9 +9,6 @@ Plug 'townk/vim-autoclose'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 
-" add extra plugins
-source ~/.vim/extra
-
 call plug#end()
 
 " enable mouse
