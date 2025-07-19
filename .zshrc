@@ -7,6 +7,7 @@ else
 fi
 
 alias art='php artisan'
+alias code="open -a 'Visual Studio Code'"
 
 export EDITOR=vim
 export VISUAL="$EDITOR"
