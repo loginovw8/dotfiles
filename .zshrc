@@ -7,6 +7,7 @@ else
 fi
 
 alias art='php artisan'
+alias python='python3'
 alias code="open -a 'Visual Studio Code'"
 
 export EDITOR=vim
@@ -18,5 +19,8 @@ export PATH="$HOME/.composer/vendor/bin:$PATH"
 export NVM_DIR="$HOME/.nvm"
 	[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" 
    	[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"
-   
-[ -f ~/.zsh/extra ] && source ~/.zsh/extra
+
+export PYENV_ROOT="$HOME/.pyenv"
+[[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"
+eval "$(pyenv init - zsh)"
+
