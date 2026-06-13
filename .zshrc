@@ -8,7 +8,7 @@ fi
 
 alias art='php artisan'
 alias python='python3'
-alias code="open -a 'Visual Studio Code'"
+alias cf='clang-format --style=Microsoft'
 
 export EDITOR=vim
 export VISUAL="$EDITOR"
