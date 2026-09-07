@@ -1,3 +1,3 @@
 # README
 
-Configuration files for Vim, Tmux, Zsh, iTerm2, VS Code and Karabiner-Elements.
+Configuration files for Vim, Tmux, Zsh, iTerm2, VS Code, Rectangle and Karabiner-Elements.
