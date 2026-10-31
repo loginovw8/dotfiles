@@ -1,4 +1,5 @@
 " https://github.com/junegunn/vim-plug
+
 call plug#begin('~/.vim/plugged')
 
 Plug 'morhetz/gruvbox'
@@ -38,20 +39,24 @@ set cursorline
 " syntax highlight
 syntax on 
 
-" set global leade 
+" set global leader
 let g:mapleader=','
 
-colorscheme gruvbox
-" contrast: soft, medium, hard
-let g:gruvbox_contrast_dark='hard'
 " bg: dark, light
-set background=dark
+set background=light
+" contrast: light, dark; values: soft, medium, hard
+let g:gruvbox_contrast_light='hard'
+set termguicolors
+colorscheme gruvbox
 
 " highlight search
 set hlsearch
 
 " incremental search
 set incsearch
+
+" disable swap files
+set noswapfile
 
 " mappings
 
